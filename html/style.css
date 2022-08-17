@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Friz Quadrata Std', sans-serif;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    background-color: #a6192e;
+    color: aliceblue;
+    justify-content: space-around;
+    padding: 13px   0px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #fbf0e1;
+}
+
+nav .logo a {
+    text-decoration: none;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+nav a {
+    display: flex;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #fbf0e1;
+}
