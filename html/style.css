@@ -5,6 +5,7 @@
 
 body {
   font-family: "Friz Quadrata Std", sans-serif;
+  background-color: #fbf0e1;
 }
 
 /* Navbar */
@@ -155,4 +156,34 @@ div.dropdown ul li a {
     flex-direction: column;
     align-items: center;
   }
+}
+
+/* Recipes pages */
+
+div.recipe_ingredients {
+  padding: 10px 10px;
+}
+
+div.recipe_ingredients h2 {
+  padding-bottom: 10px;
+}
+
+div.recipe_ingredients h4 {
+  padding-bottom: 5px;
+}
+
+div.recipe_ingredients ul {
+  padding: 0px 30px;
+  padding-bottom: 5px;
+  list-style: inherit;
+}
+
+div.recipe_ingredients ol {
+  padding: 0px 30px;
+  padding-bottom: 5px;
+  list-style: numeric;
+}
+
+div.recipe_ingredients ol li {
+  padding: 2px 0px;
 }
