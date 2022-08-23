@@ -203,30 +203,37 @@ div.dropdown ul li a {
 
 /* Recipes pages */
 
-div.recipe_ingredients {
-  padding: 10px 10px;
+.recipe_ingredients {
+  margin: 30px;
 }
 
-div.recipe_ingredients h2 {
-  padding-bottom: 10px;
+.recipe_ingredients img {
+  border-radius: 10px;
+  max-width: 60%;
+  height: auto;
 }
 
-div.recipe_ingredients h4 {
+.recipe_ingredients h2 {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.recipe_ingredients h4 {
   padding-bottom: 5px;
 }
 
-div.recipe_ingredients ul {
+.recipe_ingredients ul {
   padding: 0px 30px;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   list-style: inherit;
 }
 
-div.recipe_ingredients ol {
+.recipe_ingredients ol {
   padding: 0px 30px;
   padding-bottom: 5px;
   list-style: numeric;
 }
 
-div.recipe_ingredients ol li {
+.recipe_ingredients ol li {
   padding: 2px 0px;
 }
